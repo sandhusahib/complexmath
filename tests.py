@@ -9,6 +9,8 @@ print(complexmath.Complex())
 print(x*y-z)
 print(sum([x,y,z],start=complexmath.Complex(0)))
 
+print(x.mod)
+
 X = [0,x.re]
 Y = [0,x.im]
 plt.plot(X,Y)

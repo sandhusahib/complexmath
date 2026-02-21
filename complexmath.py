@@ -4,6 +4,8 @@ class Complex:
         self.re = real_part
         self.im = imag_part
 
+        self.mod = (real_part**2 + imag_part**2) ** (1/2)
+
     def __str__(self):
         if self.re == 0 and self.im == 0:
             complex_str = str(0)
