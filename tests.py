@@ -10,6 +10,7 @@ print(x*y-z)
 print(sum([x,y,z],start=complexmath.Complex(0)))
 
 print(x.mod)
+print(x.arg)
 
 X = [0,x.re]
 Y = [0,x.im]

@@ -1,3 +1,5 @@
+from math import atan2
+
 class Complex:
     "Complex number definition"
     def __init__(self, real_part=0, imag_part=0):
@@ -5,6 +7,7 @@ class Complex:
         self.im = imag_part
 
         self.mod = (real_part**2 + imag_part**2) ** (1/2)
+        self.arg = atan2(self.im, self.re)
 
     def __str__(self):
         if self.re == 0 and self.im == 0:
