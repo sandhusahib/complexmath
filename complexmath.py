@@ -1,6 +1,6 @@
 class Complex:
     "Complex number definition"
-    def __init__(self, real_part, imag_part):
+    def __init__(self, real_part=0, imag_part=0):
         self.r = real_part
         self.i = imag_part
     def __str__(self):
