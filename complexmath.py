@@ -38,3 +38,6 @@ class Complex:
         imag_pt = (self.re * other.im) + (self.im * other.re)
         return Complex(real_pt, imag_pt)
     
+    def conj(self):
+        return Complex(self.re, -self.im)
+    
