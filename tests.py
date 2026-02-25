@@ -12,6 +12,7 @@ print(sum([x,y,z],start=complexmath.Complex(0)))
 print(x.mod)
 print(x.arg)
 print(x.conj())
+print(x.polar)
 
 X = [0,x.re]
 Y = [0,x.im]

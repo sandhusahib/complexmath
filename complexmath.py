@@ -9,6 +9,8 @@ class Complex:
         self.mod = (real_part**2 + imag_part**2) ** (1/2)
         self.arg = atan2(self.im, self.re)
 
+        self.polar = "{:.2f}*(cos({:.2f})+i*sin({:.2f}))".format(self.mod,self.arg,self.arg)
+
     def __str__(self):
         if self.re == 0 and self.im == 0:
             complex_str = str(0)
